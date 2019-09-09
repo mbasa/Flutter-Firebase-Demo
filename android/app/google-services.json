@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "255325756232",
+    "firebase_url": "https://cti-ondemand-test.firebaseio.com",
+    "project_id": "cti-ondemand-test",
+    "storage_bucket": "cti-ondemand-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255325756232:android:bcff4b1ba601ddf6",
+        "android_client_info": {
+          "package_name": "jp.co.georepublic.flutter_app_messaging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255325756232-bthd0nfjei9e4fltlbhvh4bkv27a1pl5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv1hTuY_yrM-U0Wzy3328W1ZhmlggTwlo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255325756232-bthd0nfjei9e4fltlbhvh4bkv27a1pl5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255325756232:android:789f3f2f6fdf1e6c",
+        "android_client_info": {
+          "package_name": "jp.co.georepublic.flutter_app_tabs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255325756232-bthd0nfjei9e4fltlbhvh4bkv27a1pl5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv1hTuY_yrM-U0Wzy3328W1ZhmlggTwlo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255325756232-bthd0nfjei9e4fltlbhvh4bkv27a1pl5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255325756232:android:c6112bb20658e4b149717d",
+        "android_client_info": {
+          "package_name": "jp.co.georepublic.flutter_firebase_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255325756232-bthd0nfjei9e4fltlbhvh4bkv27a1pl5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv1hTuY_yrM-U0Wzy3328W1ZhmlggTwlo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255325756232-bthd0nfjei9e4fltlbhvh4bkv27a1pl5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
