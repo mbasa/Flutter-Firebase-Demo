@@ -225,7 +225,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                                   "Title",
                                   style: TextStyle(color: Colors.blueAccent),
                                 ),
-                                subtitle: Text(_title),
+                                subtitle: Text(_title == null ? "" : _title),
                                 leading: Icon(
                                   Icons.message,
                                 ),
@@ -235,7 +235,8 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                                   "Message",
                                   style: TextStyle(color: Colors.blueAccent),
                                 ),
-                                subtitle: Text(_message),
+                                subtitle:
+                                    Text(_message == null ? "" : _message),
                                 leading: Icon(Icons.message),
                               ),
                             ],
