@@ -45,5 +45,5 @@ DATA='{"notification": {"body": "This is a test Message. Please ignore. Message 
 curl https://fcm.googleapis.com/fcm/send 
  -H "Content-Type:application/json" 
  -X POST -d "$DATA" 
- -H "Authorization: key=AAAAO3KZ20g:APA91bHIhL3o5EHWnzQBlDP-yKJyBz9vy7EWKJw8YyNM7XaQWk_lgJFbDYXq5-nGYAvZY1FVUpJ_VbSJkA0OCzRQnU5UdMP7ZKfZS6ycxH44MA72wgyQY_17HvmUvKL9TgoUb7XrVmQ8"
+ -H "Authorization: key=[AUTHORIZATION_KEY]"
 ```
