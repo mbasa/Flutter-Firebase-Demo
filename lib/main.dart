@@ -64,6 +64,27 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
         );
   }
 
+  void showMsgAlert() {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text(_title),
+          content: Text(_message),
+          actions: <Widget>[
+            RaisedButton(
+              child: Text(
+                "Close",
+                style: TextStyle(color: Colors.white),
+              ),
+              onPressed: () => Navigator.pop(context),
+            )
+          ],
+        );
+      },
+    );
+  }
+
   void getMessage() {
     _firebaseMessaging.configure(
         onMessage: (Map<String, dynamic> message) async {
@@ -71,6 +92,8 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
       setState(() {
         _title = message["notification"]["title"];
         _message = message["notification"]["body"];
+
+        showMsgAlert();
       });
     }, onResume: (Map<String, dynamic> message) async {
       ///
